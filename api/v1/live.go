@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/merlindorin/shared/pkg/net/ws"
+	"github.com/hoomy-official/go-shared/pkg/net/ws"
 	"golang.org/x/sync/errgroup"
 )
 

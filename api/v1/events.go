@@ -3,8 +3,8 @@ package v1
 import (
 	"context"
 
-	"github.com/merlindorin/shared/pkg/net/do"
-	"github.com/merlindorin/shared/pkg/net/rest"
+	"github.com/hoomy-official/go-shared/pkg/net/do"
+	"github.com/hoomy-official/go-shared/pkg/net/rest"
 )
 
 type APIEvent struct {
