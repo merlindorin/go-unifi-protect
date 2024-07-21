@@ -53,7 +53,10 @@ func (a *Auth) UserAuth(ctx context.Context, r *http.Request) error {
 	}
 
 	r.Header.Set(CSRFTokenHeader, a.CSRF)
-	r.AddCookie(&http.Cookie{Name: "TOKEN", Value: a.Token.Raw})
+
+	if a.Token != nil {
+		r.AddCookie(&http.Cookie{Name: "TOKEN", Value: a.Token.Raw})
+	}
 
 	return nil
 }

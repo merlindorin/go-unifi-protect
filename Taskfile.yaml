@@ -1,10 +1,10 @@
 version: '3'
 
 includes:
-  default: https://raw.githubusercontent.com/hoomy-official/taskfile-default/main/tasks.yaml
-  git: https://raw.githubusercontent.com/hoomy-official/taskfile-git/main/tasks.yaml
-  markdownlint: https://raw.githubusercontent.com/hoomy-official/taskfile-markdownlint/main/tasks.yaml
-  golangci: https://raw.githubusercontent.com/hoomy-official/taskfile-golangci/main/tasks.yaml
+  default: https://raw.githubusercontent.com/vanyda-official/taskfile-default/main/tasks.yaml
+  git: https://raw.githubusercontent.com/vanyda-official/taskfile-git/main/tasks.yaml
+  markdownlint: https://raw.githubusercontent.com/vanyda-official/taskfile-markdownlint/main/tasks.yaml
+  golangci: https://raw.githubusercontent.com/vanyda-official/taskfile-golangci/main/tasks.yaml
 
 dotenv:
   - .env
