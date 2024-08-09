@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/hoomy-official/go-shared/pkg/net/ws"
+	"github.com/vanyda-official/go-shared/pkg/net/ws"
 	"nhooyr.io/websocket"
 )
 

@@ -1,10 +1,10 @@
 module github.com/hoomy-official/go-unifi-protect
 
-go 1.21
+go 1.22
 
 require (
 	github.com/golang-jwt/jwt/v5 v5.2.0
-	github.com/hoomy-official/go-shared v0.0.0-20240228011445-1f01c7308b11
+	github.com/vanyda-official/go-shared v0.0.0-20240809120752-f61353c4695e
 	go.uber.org/zap v1.27.0
 	golang.org/x/sync v0.6.0
 	nhooyr.io/websocket v1.8.10

@@ -97,7 +97,7 @@ if userAuthError != nil {
 
 #### Working with Sensors
 
-To interact with sensors, the `ApiClient` provides methods to list sensors and retrieve individual sensor details:
+To interact with sensors, the `APIClient` provides methods to list sensors and retrieve individual sensor details:
 
 ```go
 sensors, sensorsError := client.V1().Sensors.List(ctx)
