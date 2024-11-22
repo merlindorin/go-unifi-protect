@@ -1,8 +1,8 @@
 package v1
 
 import (
-	"github.com/vanyda-official/go-shared/pkg/net/rest"
-	"github.com/vanyda-official/go-shared/pkg/net/ws"
+	"github.com/merlindorin/go-shared/pkg/net/rest"
+	"github.com/merlindorin/go-shared/pkg/net/ws"
 )
 
 type V1 struct {

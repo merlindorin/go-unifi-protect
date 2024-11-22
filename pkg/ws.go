@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/vanyda-official/go-shared/pkg/net/ws"
-	"nhooyr.io/websocket"
+	"github.com/coder/websocket"
+	"github.com/merlindorin/go-shared/pkg/net/ws"
 )
 
 type Dialer struct {

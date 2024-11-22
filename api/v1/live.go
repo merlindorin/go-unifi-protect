@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/vanyda-official/go-shared/pkg/net/ws"
+	"github.com/merlindorin/go-shared/pkg/net/ws"
 	"golang.org/x/sync/errgroup"
 )
 

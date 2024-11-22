@@ -4,8 +4,8 @@ import (
 	"context"
 
 	"github.com/golang-jwt/jwt/v5"
-	v1 "github.com/hoomy-official/go-unifi-protect/api/v1"
-	"github.com/vanyda-official/go-shared/pkg/net/do"
+	"github.com/merlindorin/go-shared/pkg/net/do"
+	v1 "github.com/merlindorin/go-unifi-protect/api/v1"
 
 	"net/http"
 	"net/url"

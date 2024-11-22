@@ -6,10 +6,10 @@ import (
 	"net/http"
 	"net/url"
 
-	v1 "github.com/hoomy-official/go-unifi-protect/api/v1"
-	"github.com/vanyda-official/go-shared/pkg/net/do"
-	"github.com/vanyda-official/go-shared/pkg/net/rest"
-	"github.com/vanyda-official/go-shared/pkg/net/ws"
+	"github.com/merlindorin/go-shared/pkg/net/do"
+	"github.com/merlindorin/go-shared/pkg/net/rest"
+	"github.com/merlindorin/go-shared/pkg/net/ws"
+	v1 "github.com/merlindorin/go-unifi-protect/api/v1"
 	"go.uber.org/zap"
 )
 

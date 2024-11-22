@@ -1,0 +1,5 @@
+ignore_readme: false
+ignore_aqua: false
+ignore_taskfile: false
+excludes:
+    - goreleaser

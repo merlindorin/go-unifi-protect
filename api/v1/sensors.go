@@ -9,8 +9,8 @@ import (
 	"net/http"
 	"reflect"
 
-	"github.com/vanyda-official/go-shared/pkg/net/do"
-	"github.com/vanyda-official/go-shared/pkg/net/rest"
+	"github.com/merlindorin/go-shared/pkg/net/do"
+	"github.com/merlindorin/go-shared/pkg/net/rest"
 )
 
 const apiPath = "/proxy/protect/api/sensors"
